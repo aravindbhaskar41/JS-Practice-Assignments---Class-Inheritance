@@ -1,5 +1,5 @@
 // import using require
-const Shape = require("Shape");
+const Shape = require("./shape");
 
 class Circle extends Shape {
   calculateArea = function () {
@@ -8,4 +8,4 @@ class Circle extends Shape {
 }
 
 // export class using module.exports
-module.exports("Circle");
+module.exports = Circle;
