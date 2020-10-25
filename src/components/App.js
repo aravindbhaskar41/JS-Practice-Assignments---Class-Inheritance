@@ -1,5 +1,4 @@
-import React from "react";
+//import circle from "./circle";
+const circle = require("./circle");
 
-export default function App() {
-  return <div>Hello</div>;
-}
+circle();

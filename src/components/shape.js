@@ -1,4 +1,4 @@
-class Shape {
+class shape {
   constructor(props) {
     this.color = "Red";
   }
@@ -11,4 +11,4 @@ class Shape {
 }
 
 // export class using module.exports
-module.exports = Shape;
+module.exports = shape;
