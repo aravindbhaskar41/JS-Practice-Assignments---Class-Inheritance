@@ -5,11 +5,13 @@ class Shape extends React.Component {
     this.color = "Red";
   }
 
-  drawShape = function () {};
+  drawShape() {
+    console.log("Inside Shape drawShape");
+  }
 
-  calculateArea = function () {
+  calculateArea() {
     console.log("Inside Shape calculateArea");
-  };
+  }
 }
 
 // export class using module.exports

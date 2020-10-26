@@ -2,9 +2,9 @@
 const Shape = require("./shape");
 
 class Circle extends Shape {
-  calculateArea = function () {
+  calculateArea() {
     console.log("Inside Circle calculateArea");
-  };
+  }
 }
 
 // export class using module.exports
