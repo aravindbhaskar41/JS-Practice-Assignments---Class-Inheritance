@@ -1,5 +1,7 @@
-class shape {
+import React from "react";
+class Shape extends React.Component {
   constructor(props) {
+    super(props);
     this.color = "Red";
   }
 
@@ -11,4 +13,4 @@ class shape {
 }
 
 // export class using module.exports
-module.exports = shape;
+module.exports = Shape;
